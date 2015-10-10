@@ -1,3 +1,10 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	float: none;	
+}
+
 html {
     min-height:100%;/* make sure it is at least as tall as the viewport */
     position:relative;
@@ -7,45 +14,49 @@ body {
 	background-color: #E6E6E6;
 }
 
-#navbar {
-	background-color: #4A6A8A;
+/* main navigation parent div */
+.navbar {
+	background: #EF5350;
+	border: 0px;
 	margin: 0px auto;
 }
 
-#brand{
-	width: 181px;
+#logo{
+	padding: 0 auto;
+	text-align: center;
+	float: none;
 }
 
+#brand{
+	display: block;
+	float: none;
+}
+
+/* items in mainNav */
 #headerListItems ul li, #headerListItems a{
 	color: #ECECEC;
+}
+
+/* mainNav div */
+#mainList {
+	padding: 0 auto;
+	text-align: center;
+	float: none;
+}
+
+/* mainNav li items */
+#mainList li {
+	display: inline-block;
+	float: none;	
 }
 
 .container {
 	background-color: #fff;
 	min-height: 100%;
-
 }
 
 #content {
 	margin: 1px auto;
-}
-
-@media screen and (min-width: 760px) {
-	#mainList{
-		margin-left: 40%;
-	}
-}
-
-@media screen and (max-width: 1097px) {
-	#mainList{
-		margin-left: 20%;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	#mainList{
-		margin-left: 0%;
-	}
 }
 
 

@@ -17,13 +17,19 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/typography.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-static-top" id="navbar">
+	<nav class="navbar navbar-inverse navbar-static-top">
 	  	<div class="container-fluid" id="headerListItems">
-	    	<div class="navbar-header">
+	    	<div class="navbar-header" id="logo">
 	      		<a class="navbar-brand" id="brand" href="#">ООО Интерактив</a>
 	    	</div>
+	    </div>
+	</nav> 
+	<nav class="navbar navbar-inverse navbar-static-top">
+	  	<div class="container-fluid" id="headerListItems">
 	    	<div id="mainList">
 	      		<ul class="nav navbar-nav">
 	        		<li><a href="#">Главная</a></li>
@@ -33,12 +39,6 @@
 	        		<li><a href="#">Контакты</a></li>
 	      		</ul>
 	      	</div>
-	      	<div id="userForm">
-	     		<ul class="nav navbar-nav navbar-right">
-	        		<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Войти</a></li>
-	        		<li><a href="#"><span class="glyphicon glyphicon-user"></span> Регистрация</a></li>
-	      		</ul>
-	    	</div>
 	    </div>
 	</nav> 
 	<div class="container" id="content">
@@ -56,9 +56,8 @@
 		    </div>
 		    <div class="clearfix visible-lg"></div>
 	  	</div>
-
 	</div>
-	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+	<nav class="navbar navbar-inverse" id="footer">
 	  	<div class="container-fluid">
 	    </div>
 	</nav> 
